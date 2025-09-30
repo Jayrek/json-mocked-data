@@ -1,12 +1,14 @@
-[
-    {
-        "name": "John Doe",
-        "email": "john.doe@example.com",
-        "password": "password"
-      },
-      {
-        "name": "Jane Doe",
-        "email": "jane.doe@example.com",
-        "password": "password"
-      }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
